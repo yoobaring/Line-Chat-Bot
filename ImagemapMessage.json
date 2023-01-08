@@ -1,0 +1,33 @@
+{
+  "line": {
+    "actions": [
+      {
+        "type": "uri",
+        "linkUri": "https://www.google.com/",
+        "area": {
+          "y": 0,
+          "width": 512,
+          "height": 731,
+          "x": 0
+        }
+      },
+      {
+        "text": "Hello",
+        "area": {
+          "height": 731,
+          "y": 0,
+          "x": 512,
+          "width": 512
+        },
+        "type": "message"
+      }
+    ],
+    "type": "imagemap",
+    "altText": "This is an imagemap",
+    "baseUrl": "https://1.bp.blogspot.com/-U90M8DyKu7Q/W9EtONMCf6I/AAAAAAAAW_4/7L_jB_Rg9oweu2HKhULNdu9WNefw9zf9wCLcBGAs/s1600/",
+    "baseSize": {
+      "height": 1040,
+      "width": 1040
+    }
+  }
+}

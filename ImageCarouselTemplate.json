@@ -1,0 +1,35 @@
+{
+  "line": {
+    "altText": "this is a image carousel template",
+    "type": "template",
+    "template": {
+      "columns": [
+        {
+          "imageUrl": "https://1.bp.blogspot.com/-U90M8DyKu7Q/W9EtONMCf6I/AAAAAAAAW_4/7L_jB_Rg9oweu2HKhULNdu9WNefw9zf9wCLcBGAs/s1600/sao-full.jpg",
+          "action": {
+            "data": "action=buy&itemid=111",
+            "type": "postback",
+            "label": "สั่งซื้อ"
+          }
+        },
+        {
+          "action": {
+            "text": "ตกลง",
+            "label": "ตกลง",
+            "type": "message"
+          },
+          "imageUrl": "https://2.bp.blogspot.com/-xAUbzdD07Z8/W9F4070M0JI/AAAAAAAAXAE/67QhUZB4TI4Xyu3GT2-DO0yA5XJtlij-ACLcBGAs/s1600/sao-os.jpg"
+        },
+        {
+          "action": {
+            "uri": "https://www.google.com/",
+            "label": "อ่านรายละเอียด",
+            "type": "uri"
+          },
+          "imageUrl": "https://3.bp.blogspot.com/-31WLFltm2vs/WDaBusvTxSI/AAAAAAAARwE/WpqthG4ESj44Y_3_yaR9We3HuHHUGoFDQCPcBGAYYCw/s1600/saohr-cover-image.jpg"
+        }
+      ],
+      "type": "image_carousel"
+    }
+  }
+}

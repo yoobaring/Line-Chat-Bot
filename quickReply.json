@@ -1,0 +1,40 @@
+{
+      "line": {
+        "quickReply": {
+          "items": [
+            {
+              "imageUrl": "https://dl.dropboxusercontent.com/s/7s9yggd27988kfb/hap.gif?q=auto",
+              "action": {
+                "label": "กดดูรายละเอียด",
+                "text": "รายละเอียด",
+                "type": "message"
+              },
+              "type": "action"
+            },
+            {
+              "imageUrl": "https://dl.dropboxusercontent.com/s/ba36sygd9tln0u7/package.gif?q=auto",
+              "type": "action",
+              "action": {
+                "type": "message",
+                "text": "image message",
+                "label": "button1"
+              }
+            },
+            {
+              "type": "action",
+              "imageUrl": "https://dl.dropboxusercontent.com/s/ba36sygd9tln0u7/package.gif?q=auto",
+              "action": {
+                "label": "button2",
+                "text": "text message",
+                "type": "message"
+              }
+            }
+          ]
+        },
+        "text": "กรุณาเลือกรายการ",
+        "type": "text"
+      }
+    }
+
+
+    

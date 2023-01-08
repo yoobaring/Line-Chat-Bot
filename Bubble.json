@@ -1,0 +1,137 @@
+{
+  "line": {
+    "altText": "Flex Message",
+    "type": "flex",
+    "contents": {
+      "type": "bubble",
+      "body": {
+        "contents": [
+          {
+            "type": "box",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "wrap": true,
+                    "type": "text",
+                    "size": "xl",
+                    "color": "#ffffff",
+                    "contents": [],
+                    "text": "Cony Residence",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "text",
+                    "size": "sm",
+                    "text": "3 Bedrooms, ¥35,000",
+                    "color": "#ffffffcc"
+                  }
+                ]
+              },
+              {
+                "backgroundColor": "#ffffff1A",
+                "margin": "xl",
+                "type": "box",
+                "paddingAll": "13px",
+                "cornerRadius": "2px",
+                "contents": [
+                  {
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "size": "sm",
+                        "contents": [],
+                        "color": "#ffffffde",
+                        "text": "Private Pool, Delivery box, Floor heating, Private Cinema",
+                        "wrap": true,
+                        "type": "text",
+                        "margin": "lg"
+                      }
+                    ],
+                    "type": "box"
+                  }
+                ],
+                "layout": "vertical"
+              }
+            ],
+            "layout": "vertical"
+          }
+        ],
+        "paddingAll": "20px",
+        "layout": "vertical",
+        "type": "box",
+        "backgroundColor": "#464F69"
+      },
+      "header": {
+        "paddingAll": "0px",
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "contents": [
+              {
+                "gravity": "center",
+                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip4.jpg",
+                "type": "image",
+                "aspectRatio": "150:196",
+                "size": "full",
+                "aspectMode": "cover"
+              },
+              {
+                "type": "box",
+                "contents": [
+                  {
+                    "aspectMode": "cover",
+                    "type": "image",
+                    "size": "full",
+                    "aspectRatio": "150:98",
+                    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip5.jpg",
+                    "gravity": "center"
+                  },
+                  {
+                    "type": "image",
+                    "gravity": "center",
+                    "size": "full",
+                    "aspectMode": "cover",
+                    "aspectRatio": "150:98",
+                    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip6.jpg"
+                  }
+                ],
+                "layout": "vertical"
+              },
+              {
+                "backgroundColor": "#EC3D44",
+                "offsetStart": "18px",
+                "width": "48px",
+                "type": "box",
+                "cornerRadius": "100px",
+                "contents": [
+                  {
+                    "text": "NEW",
+                    "size": "xs",
+                    "type": "text",
+                    "align": "center",
+                    "color": "#ffffff",
+                    "gravity": "center"
+                  }
+                ],
+                "paddingAll": "2px",
+                "position": "absolute",
+                "paddingStart": "4px",
+                "offsetTop": "18px",
+                "paddingEnd": "4px",
+                "height": "25px",
+                "layout": "horizontal"
+              }
+            ],
+            "layout": "horizontal",
+            "type": "box"
+          }
+        ]
+      }
+    }
+  }
+}

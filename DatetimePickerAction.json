@@ -1,0 +1,9 @@
+{  
+   "type":"datetimepicker",
+   "label":"เลือกวันและเวลา",
+   "data":"value=12345",
+   "mode":"datetime",
+   "initial":"2018-10-26t00:00",
+   "max":"2019-12-31t23:59",
+   "min":"2017-01-01t00:00"
+}
