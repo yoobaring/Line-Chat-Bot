@@ -5,10 +5,10 @@
       },
       "selected": true,
       "name": "ริชเมนู 3",
-      "chatBarText": "ประกาศ",
+      "chatBarText": "menu",
       "areas": [
         {
-          "bounds": {
+          "bounds": {s
             "x": 3,
             "y": 4,
             "width": 624,
