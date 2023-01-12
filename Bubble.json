@@ -1,137 +1,347 @@
 {
-  "line": {
-    "altText": "Flex Message",
-    "type": "flex",
-    "contents": {
-      "type": "bubble",
-      "body": {
-        "contents": [
-          {
-            "type": "box",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "vertical",
-                "spacing": "sm",
-                "contents": [
-                  {
-                    "wrap": true,
-                    "type": "text",
-                    "size": "xl",
-                    "color": "#ffffff",
-                    "contents": [],
-                    "text": "Cony Residence",
-                    "weight": "bold"
-                  },
-                  {
-                    "type": "text",
-                    "size": "sm",
-                    "text": "3 Bedrooms, ¥35,000",
-                    "color": "#ffffffcc"
-                  }
-                ]
-              },
-              {
-                "backgroundColor": "#ffffff1A",
-                "margin": "xl",
-                "type": "box",
-                "paddingAll": "13px",
-                "cornerRadius": "2px",
-                "contents": [
-                  {
-                    "layout": "vertical",
-                    "contents": [
-                      {
-                        "size": "sm",
-                        "contents": [],
-                        "color": "#ffffffde",
-                        "text": "Private Pool, Delivery box, Floor heating, Private Cinema",
-                        "wrap": true,
-                        "type": "text",
-                        "margin": "lg"
-                      }
-                    ],
-                    "type": "box"
-                  }
-                ],
-                "layout": "vertical"
-              }
-            ],
-            "layout": "vertical"
+  "line": {    
+  "altText": "Flex Message",
+  "type": "flex",
+  "contents": {
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://cf.shopee.co.th/file/98450ac0a955d11c2ba43150239d95e4",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "Line",
+            "uri": "https://linecorp.com/"
           }
-        ],
-        "paddingAll": "20px",
-        "layout": "vertical",
-        "type": "box",
-        "backgroundColor": "#464F69"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "เสื้อยืด สีฟ้า ชาย",
+              "weight": "bold",
+              "size": "lg",
+              "align": "start",
+              "contents": []
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "margin": "md",
+              "contents": [
+                {
+                  "type": "icon",
+                  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+                  "size": "sm"
+                },
+                {
+                  "type": "icon",
+                  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+                  "size": "sm"
+                },
+                {
+                  "type": "icon",
+                  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+                  "size": "sm"
+                },
+                {
+                  "type": "icon",
+                  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "3.0",
+                  "size": "sm",
+                  "color": "#999999",
+                  "flex": 0,
+                  "margin": "md",
+                  "contents": []
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "spacing": "sm",
+              "margin": "lg",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "spacing": "sm",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "350 บาท",
+                      "weight": "bold",
+                      "size": "xxl",
+                      "color": "#B33838FF",
+                      "wrap": true,
+                      "contents": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "flex": 0,
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "กดสั่งซื้อ",
+                "text": "กดสั่งซื้อ"
+              },
+              "color": "#E4AC21FF",
+              "height": "sm",
+              "style": "link"
+            },
+            {
+              "type": "spacer",
+              "size": "lg"
+            }
+          ]
+        }
       },
-      "header": {
-        "paddingAll": "0px",
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "contents": [
-              {
-                "gravity": "center",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip4.jpg",
-                "type": "image",
-                "aspectRatio": "150:196",
-                "size": "full",
-                "aspectMode": "cover"
-              },
-              {
-                "type": "box",
-                "contents": [
-                  {
-                    "aspectMode": "cover",
-                    "type": "image",
-                    "size": "full",
-                    "aspectRatio": "150:98",
-                    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip5.jpg",
-                    "gravity": "center"
-                  },
-                  {
-                    "type": "image",
-                    "gravity": "center",
-                    "size": "full",
-                    "aspectMode": "cover",
-                    "aspectRatio": "150:98",
-                    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip6.jpg"
-                  }
-                ],
-                "layout": "vertical"
-              },
-              {
-                "backgroundColor": "#EC3D44",
-                "offsetStart": "18px",
-                "width": "48px",
-                "type": "box",
-                "cornerRadius": "100px",
-                "contents": [
-                  {
-                    "text": "NEW",
-                    "size": "xs",
-                    "type": "text",
-                    "align": "center",
-                    "color": "#ffffff",
-                    "gravity": "center"
-                  }
-                ],
-                "paddingAll": "2px",
-                "position": "absolute",
-                "paddingStart": "4px",
-                "offsetTop": "18px",
-                "paddingEnd": "4px",
-                "height": "25px",
-                "layout": "horizontal"
-              }
-            ],
-            "layout": "horizontal",
-            "type": "box"
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://cf.shopee.co.th/file/98450ac0a955d11c2ba43150239d95e4",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "Line",
+            "uri": "https://linecorp.com/"
           }
-        ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "เสื้อยืด สีฟ้า ชาย",
+              "weight": "bold",
+              "size": "lg",
+              "align": "start",
+              "contents": []
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "margin": "md",
+              "contents": [
+                {
+                  "type": "icon",
+                  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+                  "size": "sm"
+                },
+                {
+                  "type": "icon",
+                  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+                  "size": "sm"
+                },
+                {
+                  "type": "icon",
+                  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+                  "size": "sm"
+                },
+                {
+                  "type": "icon",
+                  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "3.0",
+                  "size": "sm",
+                  "color": "#999999",
+                  "flex": 0,
+                  "margin": "md",
+                  "contents": []
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "spacing": "sm",
+              "margin": "lg",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "spacing": "sm",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "350 บาท",
+                      "weight": "bold",
+                      "size": "xxl",
+                      "color": "#B33838FF",
+                      "wrap": true,
+                      "contents": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "flex": 0,
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "กดสั่งซื้อ",
+                "text": "กดสั่งซื้อ"
+              },
+              "color": "#E4AC21FF",
+              "height": "sm",
+              "style": "link"
+            },
+            {
+              "type": "spacer",
+              "size": "lg"
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "url": "https://cf.shopee.co.th/file/98450ac0a955d11c2ba43150239d95e4",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "Line",
+            "uri": "https://linecorp.com/"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "เสื้อยืด สีฟ้า ชาย",
+              "weight": "bold",
+              "size": "lg",
+              "align": "start",
+              "contents": []
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "margin": "md",
+              "contents": [
+                {
+                  "type": "icon",
+                  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+                  "size": "sm"
+                },
+                {
+                  "type": "icon",
+                  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+                  "size": "sm"
+                },
+                {
+                  "type": "icon",
+                  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+                  "size": "sm"
+                },
+                {
+                  "type": "icon",
+                  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "3.0",
+                  "size": "sm",
+                  "color": "#999999",
+                  "flex": 0,
+                  "margin": "md",
+                  "contents": []
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "spacing": "sm",
+              "margin": "lg",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "spacing": "sm",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "350 บาท",
+                      "weight": "bold",
+                      "size": "xxl",
+                      "color": "#B33838FF",
+                      "wrap": true,
+                      "contents": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "flex": 0,
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "กดสั่งซื้อ",
+                "text": "กดสั่งซื้อ"
+              },
+              "color": "#E4AC21FF",
+              "height": "sm",
+              "style": "link"
+            },
+            {
+              "type": "spacer",
+              "size": "lg"
+            }
+          ]
+        }
       }
-    }
+    ]
+  }
   }
 }

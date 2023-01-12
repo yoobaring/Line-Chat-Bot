@@ -1,0 +1,13 @@
+## ขั้นตอนการทำ richmenu ผ่าน API 
+      copy token line ใส่ที่ Authorization ( เลือหประเภท หรือ Type เป็น Bearer Token)
+
+1. ขั้นตอนการสร้าง richmenu โดย POST ไฟล์ JSON
+   copy link นี้ https://api.line.me/v2/bot/richmenu และ เลือก POST
+
+2. ขั้นตอนการอัปโหลด รูปภาพ richmenu โดย POST เลือก Body => binary อัปโหลดรูปได้เลย
+   และ copy link นี้ https://api-data.line.me/v2/bot/richmenu/ใส่ ID ที่ได้จากข้อ 1/content และ เลือก POST
+
+3. ขั้นตอนการเซตค่าเริ่มต้น richmenu โดย POST 
+   และ copy link นี้ https://api.line.me/v2/bot/user/all/richmenu/ใส่ ID ที่ได้จากข้อ 1 และ เลือก POST
+
+4. กรณีต้องการลบ https://api.line.me/v2/bot/richmenu/ใส่ ID ที่ได้จากข้อ 1  และ เลือก DELETE
